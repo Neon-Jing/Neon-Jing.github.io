@@ -98,59 +98,8 @@ const en: LocaleMessages = {
   },
 };
 
-const zh: LocaleMessages = {
-  common: {
-    all: '全部',
-    copyToClipboard: '复制到剪贴板',
-  },
-  navigation: {
-    openMainMenu: '打开主菜单',
-  },
-  theme: {
-    system: '跟随系统',
-    light: '浅色',
-    dark: '深色',
-    currentTheme: '当前主题',
-    cycleTheme: '点击切换主题',
-  },
-  profile: {
-    email: '邮箱',
-    location: '地址',
-    workAddress: '办公地址',
-    click: '点击',
-    googleMap: '谷歌地图',
-    send: '发送',
-    sendEmail: '发送邮件',
-    researchInterests: '研究兴趣',
-    like: '点赞',
-    liked: '已点赞',
-    thanks: '感谢支持！',
-  },
-  home: {
-    about: '关于我',
-    news: '动态',
-    selectedPublications: '精选论文',
-    viewAll: '查看全部',
-  },
-  publications: {
-    searchPlaceholder: '搜索论文...',
-    filters: '筛选',
-    year: '年份',
-    type: '类型',
-    noResults: '没有找到符合条件的论文。',
-    abstract: '摘要',
-    bibtex: 'BibTeX',
-    code: '代码',
-  },
-  footer: {
-    lastUpdated: '最近更新',
-    builtWithPrism: '由 PRISM 构建',
-  },
-};
-
 export const messages: Record<string, LocaleMessages> = {
   en,
-  zh,
 };
 
 export function getMessages(locale: string): LocaleMessages {

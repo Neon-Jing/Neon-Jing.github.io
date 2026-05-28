@@ -17,7 +17,7 @@ location_details = [
   "B.AI, Lanzhou University",
   "Incoming Ph.D., MBZUAI"
 ]
-google_scholar = "https://scholar.google.com.hk/citations?user=lqFaDTMAAAAJ&hl=zh-CN"
+google_scholar = "https://scholar.google.com/citations?user=lqFaDTMAAAAJ&hl=en"
 github = "https://github.com/Neon-Jing"
 
 [features]
@@ -25,16 +25,15 @@ enable_likes = true
 enable_one_page_mode = true
 
 [i18n]
-enabled = true
-locales = ["zh", "en"]
-default_locale = "zh"
-mode = "auto"
-fixed_locale = "zh"
-persist = true
-switcher = true
+enabled = false
+locales = ["en"]
+default_locale = "en"
+mode = "fixed"
+fixed_locale = "en"
+persist = false
+switcher = false
 
 [i18n.labels]
-zh = "中文"
 en = "English"
 
 [[navigation]]
