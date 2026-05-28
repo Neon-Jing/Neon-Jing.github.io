@@ -9,3 +9,9 @@ research_interests = [
   "LLM alignment",
   "Agent simulation and coordination"
 ]
+
+[[sections]]
+id = "about"
+type = "markdown"
+source = "bio.md"
+title = "About"

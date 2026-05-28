@@ -6,7 +6,21 @@ import { Publication } from '@/types/publication';
 import { BasePageConfig, PublicationPageConfig, TextPageConfig, CardPageConfig } from '@/types/page';
 import { getRuntimeI18nConfig } from '@/lib/i18n/config';
 
+interface AboutSectionConfig {
+  id: string;
+  type: 'markdown';
+  title?: string;
+  source?: string;
+  content?: string;
+}
+
+type AboutPageConfig = BasePageConfig & {
+  profile?: { research_interests?: string[] };
+  sections?: AboutSectionConfig[];
+};
+
 type PageData =
+  | { type: 'about'; id: string; title?: string; content: string }
   | { type: 'publication'; id: string; config: PublicationPageConfig; publications: Publication[] }
   | { type: 'text'; id: string; config: TextPageConfig; content: string }
   | { type: 'card'; id: string; config: CardPageConfig };
@@ -15,7 +29,7 @@ function loadPageDataForLocale(locale: string | undefined): HomePageLocaleData {
   const localeConfig = getConfig(locale);
   const enableOnePageMode = localeConfig.features.enable_one_page_mode;
 
-  const aboutConfig = getPageConfig<{ profile?: { research_interests?: string[] } }>('about', locale);
+  const aboutConfig = getPageConfig<AboutPageConfig>('about', locale);
   const researchInterests = aboutConfig?.profile?.research_interests;
 
   let pagesToShow: PageData[] = [];
@@ -28,6 +42,20 @@ function loadPageDataForLocale(locale: string | undefined): HomePageLocaleData {
         if (!rawConfig) return null;
 
         const pageConfig = rawConfig as BasePageConfig;
+
+        if (pageConfig.type === 'about') {
+          const aboutPageConfig = rawConfig as AboutPageConfig;
+          const markdownSection = aboutPageConfig.sections?.find((section) => section.type === 'markdown');
+
+          return {
+            type: 'about',
+            id: item.target,
+            title: markdownSection?.title || aboutPageConfig.title,
+            content: markdownSection?.source
+              ? getMarkdownContent(markdownSection.source, locale)
+              : markdownSection?.content || '',
+          } as PageData;
+        }
 
         if (pageConfig.type === 'publication') {
           const pubConfig = pageConfig as PublicationPageConfig;

@@ -37,6 +37,12 @@ switcher = false
 en = "English"
 
 [[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
 title = "Research"
 type = "page"
 target = "publications"

@@ -1,6 +1,7 @@
 'use client';
 
 import Profile from '@/components/home/Profile';
+import About from '@/components/home/About';
 import PublicationsList from '@/components/publications/PublicationsList';
 import TextPage from '@/components/pages/TextPage';
 import CardPage from '@/components/pages/CardPage';
@@ -10,6 +11,7 @@ import { CardPageConfig, PublicationPageConfig, TextPageConfig } from '@/types/p
 import { useLocaleStore } from '@/lib/stores/localeStore';
 
 type PageData =
+  | { type: 'about'; id: string; title?: string; content: string }
   | { type: 'publication'; id: string; config: PublicationPageConfig; publications: Publication[] }
   | { type: 'text'; id: string; config: TextPageConfig; content: string }
   | { type: 'card'; id: string; config: CardPageConfig };
@@ -52,6 +54,12 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
         <div className="lg:col-span-2 space-y-8">
           {data.pagesToShow.map((page) => (
             <section key={page.id} id={page.id} className="scroll-mt-24 space-y-8">
+              {page.type === 'about' && (
+                <About
+                  content={page.content}
+                  title={page.title}
+                />
+              )}
               {page.type === 'publication' && (
                 <PublicationsList
                   config={page.config}
