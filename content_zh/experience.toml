@@ -1,24 +1,38 @@
 type = "card"
 title = "经历"
-description = "按问题类型整理的代表性经历。"
+description = "代表性研究和工程经历。"
 
 [[items]]
-title = "应用 AI 研究"
-subtitle = "预测系统与实验设计"
-date = "Current"
-content = "设计长期价值预测相关的建模实验。工作内容包括特征框架、saved prediction 分析、子群体评估，以及更贴近业务决策的指标设计。"
-tags = ["机器学习", "实验设计", "评估"]
+title = "算法工程实习生"
+subtitle = "阿里巴巴"
+date = "2025.05 - 至今"
+content = "从事生成式 LTV 预测和确认 GMV 预测，关注面向生产环境的价值预测和能够服务业务决策的建模方法。"
+tags = ["LTV 预测", "GMV 预测", "应用机器学习"]
 
 [[items]]
-title = "研究工程"
-subtitle = "自动化、可复现与项目记忆"
-date = "Current"
-content = "构建便于研究恢复和延续的工作流：problem bank、research wiki、experiment plan、audit loop，以及结构化的 result-to-claim 检查。"
-tags = ["Research Ops", "自动化", "文档"]
+title = "远程研究"
+subtitle = "Mohamed bin Zayed University of Artificial Intelligence · 导师：Dr. Lijie Hu"
+date = "2025.06 - 至今"
+content = "研究 LLM Alignment、隐私安全和可解释 AI，将表示层行为分析与更安全、可解释的模型控制方法连接起来。"
+tags = ["LLM Alignment", "隐私安全", "XAI"]
 
 [[items]]
-title = "开发工具链"
-subtitle = "本地 AI 工具与故障诊断"
-date = "Current"
-content = "从真实系统层定位本地 CLI 和 AI 助手问题：shell 状态、进程环境、代理设置、日志和可复现命令。"
-tags = ["CLI", "macOS", "工具链"]
+title = "访问学生"
+subtitle = "University College Dublin · 导师：Dr. Ruihai Dong"
+date = "2023.12 - 2025.02"
+content = "研究可解释推荐算法及其工业实现，把推荐系统方法和实际部署约束结合起来。"
+tags = ["可解释推荐", "推荐系统", "工业 AI"]
+
+[[items]]
+title = "访问学生"
+subtitle = "西湖大学 AGI Lab · 导师：Dr. Chi Zhang"
+date = "2023.05 - 2023.11"
+content = "研究单目深度估计和 AI 生成内容，关注视觉感知与生成式 AI 问题。"
+tags = ["单目深度估计", "AIGC", "计算机视觉"]
+
+[[items]]
+title = "远程研究"
+subtitle = "University of North Carolina at Chapel Hill · 导师：Dr. Edward Gehringer"
+date = "2022.06 - 2022.09"
+content = "探索如何利用人工智能提升在线学习平台中的学生学习体验。"
+tags = ["AI 教育", "在线学习", "学习平台"]

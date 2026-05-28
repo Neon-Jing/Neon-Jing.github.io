@@ -1,4 +1,4 @@
 type = "publication"
 title = "Research"
-description = "Working notes, technical reports, and research directions. Replace or extend these BibTeX entries with formal publications when available."
+description = "Accepted and published research papers."
 source = "publications.bib"

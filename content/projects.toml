@@ -1,31 +1,31 @@
 type = "card"
 title = "Projects"
-description = "A compact view of the research and engineering directions I am actively shaping."
+description = "Research directions and systems work reflected in my current work."
 
 [[items]]
-title = "Theory-Guided LTV Estimation"
-subtitle = "Long-horizon value prediction"
-date = "2026"
-content = "A pilot line for rebuilding LTV prediction around value state, cohort response, and tail-aware constraints. The practical question is: when global error improves, do high-value users and important subgroups still remain reliable?"
-tags = ["LTV", "Predictive Modeling", "Robustness"]
+title = "Generative LTV and Confirmed GMV Prediction"
+subtitle = "Value prediction for industrial decision systems"
+date = "2025 - Present"
+content = "Modeling long-horizon user value and confirmed transaction value under delayed labels and changing product conditions. For example, a useful forecasting system should not only reduce aggregate error, but also remain reliable for high-value cohorts and decision-sensitive scenarios."
+tags = ["LTV", "GMV", "Value Prediction"]
 
 [[items]]
-title = "Delayed GMV Modeling"
-subtitle = "Post-click value and promotion-shock analysis"
-date = "2026"
-content = "A GMV research track for delayed conversion and payment signals. The direction separates label maturity, promotion shocks, and subgroup calibration so the model can support online decisions instead of only offline reporting."
-tags = ["GMV", "Delayed Labels", "Decision Systems"]
+title = "Multimodal Recommender Systems"
+subtitle = "Denoising, distillation, and explainability"
+date = "2024 - Present"
+content = "Research on multimodal recommendation with noisy visual/textual signals, efficient distillation, and explainable recommendation. The goal is to make recommender systems more robust when multimodal side information is useful but imperfect."
+tags = ["Recommender Systems", "Multimodal Learning", "Data Mining"]
 
 [[items]]
-title = "Research Automation Workflow"
-subtitle = "From idea to experiment"
-date = "2026"
-content = "A Codex-native workflow for research refinement, paper search, experiment planning, result auditing, and restartable project memory. For example, a vague modeling idea becomes an experiment plan with datasets, metrics, ablations, and known risks."
-tags = ["Automation", "Research Systems", "Codex"]
+title = "LLM Alignment, Safety, and XAI"
+subtitle = "Representation-level control and interpretation"
+date = "2025 - Present"
+content = "Research around alignment, privacy safety, and explainable AI for large models. This includes studying how hidden representations relate to controllable behavior and how interventions can preserve useful reasoning while improving safety."
+tags = ["LLM Alignment", "Privacy Safety", "Explainable AI"]
 
 [[items]]
-title = "Reliable AI Tooling"
-subtitle = "Local development and diagnostics"
-date = "2026"
-content = "Practical tooling around local AI assistants, CLI failures, proxy diagnosis, reproducible setup, and project launchers. The emphasis is terminal-verified diagnosis rather than speculative configuration advice."
-tags = ["Developer Tools", "Diagnostics", "Reproducibility"]
+title = "Agent Simulation and Coordination"
+subtitle = "Decision-making frameworks for AI agents"
+date = "Research Interest"
+content = "Exploring agent simulation, coordination, and decision-making frameworks. The central question is how multiple AI agents can reason, coordinate, and act under structured objectives and constraints."
+tags = ["Agents", "Simulation", "Decision Making"]

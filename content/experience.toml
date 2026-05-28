@@ -1,24 +1,38 @@
 type = "card"
 title = "Experience"
-description = "Selected experience framed by the kind of problems I can help solve."
+description = "Selected research and engineering experience."
 
 [[items]]
-title = "Applied AI Research"
-subtitle = "Prediction systems and experiment design"
-date = "Current"
-content = "Designing modeling experiments for long-horizon value prediction. Work includes feature framing, saved-prediction analysis, subgroup evaluation, and decision-oriented metrics."
-tags = ["Machine Learning", "Experiment Design", "Evaluation"]
+title = "Algorithm Engineering Intern"
+subtitle = "Alibaba Group"
+date = "May 2025 - Present"
+content = "Working on generative LTV prediction and confirmed GMV forecasting, with emphasis on production-facing value prediction and decision-oriented modeling."
+tags = ["LTV Prediction", "GMV Forecasting", "Applied Machine Learning"]
 
 [[items]]
-title = "Research Engineering"
-subtitle = "Automation, reproducibility, and project memory"
-date = "Current"
-content = "Building workflows that make research easier to restart: problem banks, research wikis, experiment plans, audit loops, and structured result-to-claim checks."
-tags = ["Research Ops", "Automation", "Documentation"]
+title = "Remote Research"
+subtitle = "Mohamed bin Zayed University of Artificial Intelligence · Advisor: Dr. Lijie Hu"
+date = "Jun 2025 - Present"
+content = "Research on LLM alignment, privacy safety, and explainable AI. The work connects representation-level behavior with safer and more interpretable model control."
+tags = ["LLM Alignment", "Privacy Safety", "XAI"]
 
 [[items]]
-title = "Developer Tooling"
-subtitle = "Local AI tools and diagnostics"
-date = "Current"
-content = "Diagnosing local CLI and assistant failures from the actual system layer: shell state, process environment, proxy settings, logs, and reproducible commands."
-tags = ["CLI", "macOS", "Tooling"]
+title = "Visiting Student"
+subtitle = "University College Dublin · Advisor: Dr. Ruihai Dong"
+date = "Dec 2023 - Feb 2025"
+content = "Worked on explainable recommendation algorithms and their industrial implementation, connecting recommender-system methods with practical deployment constraints."
+tags = ["Explainable Recommendation", "Recommender Systems", "Industrial AI"]
+
+[[items]]
+title = "Visiting Student"
+subtitle = "AGI Lab, Westlake University · Advisor: Dr. Chi Zhang"
+date = "May 2023 - Nov 2023"
+content = "Worked on monocular depth estimation and AI-generated content, focusing on visual perception and generative AI problems."
+tags = ["Monocular Depth Estimation", "AIGC", "Computer Vision"]
+
+[[items]]
+title = "Remote Research"
+subtitle = "University of North Carolina at Chapel Hill · Advisor: Dr. Edward Gehringer"
+date = "Jun 2022 - Sep 2022"
+content = "Explored how artificial intelligence can enhance student learning in online platforms."
+tags = ["AI for Education", "Online Learning", "Learning Platforms"]

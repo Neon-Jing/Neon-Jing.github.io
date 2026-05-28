@@ -1,31 +1,31 @@
 type = "card"
 title = "项目"
-description = "这里整理我正在推进的研究和工程方向。"
+description = "当前研究方向和系统工作。"
 
 [[items]]
-title = "理论驱动的 LTV 估计"
-subtitle = "长期价值预测"
-date = "2026"
-content = "围绕 value state、cohort response 和 tail-aware constraints 重构 LTV 预测的试验线。核心问题是：当整体误差变好时，高价值用户和关键子群体是否仍然可靠？"
-tags = ["LTV", "预测建模", "稳健性"]
+title = "生成式 LTV 与确认 GMV 预测"
+subtitle = "面向工业决策系统的价值预测"
+date = "2025 - 至今"
+content = "在延迟标签和产品环境变化下建模长期用户价值与确认交易价值。例如，一个真正有用的预测系统不仅要降低整体误差，还要在高价值人群和决策敏感场景中保持可靠。"
+tags = ["LTV", "GMV", "价值预测"]
 
 [[items]]
-title = "延迟 GMV 建模"
-subtitle = "点击后价值与促销冲击分析"
-date = "2026"
-content = "面向延迟转化和支付信号的 GMV 研究方向。这个方向会拆分标签成熟度、促销冲击和子群体校准，让模型能够服务在线决策，而不仅是离线报表。"
-tags = ["GMV", "延迟标签", "决策系统"]
+title = "多模态推荐系统"
+subtitle = "去噪、蒸馏与可解释性"
+date = "2024 - 至今"
+content = "研究带有噪声视觉/文本信号的多模态推荐、有效蒸馏和可解释推荐。目标是在多模态信息有用但不完美的情况下，让推荐系统更加稳健。"
+tags = ["推荐系统", "多模态学习", "数据挖掘"]
 
 [[items]]
-title = "研究自动化工作流"
-subtitle = "从 idea 到 experiment"
-date = "2026"
-content = "面向 Codex 的研究工作流，覆盖问题细化、论文搜索、实验规划、结果审计和可恢复项目记忆。例如，一个模糊建模想法可以被拆成数据集、指标、消融和已知风险都明确的实验计划。"
-tags = ["自动化", "研究系统", "Codex"]
+title = "LLM Alignment、安全与可解释 AI"
+subtitle = "表示层控制与解释"
+date = "2025 - 至今"
+content = "围绕大模型 Alignment、隐私安全和可解释 AI 展开研究，关注隐藏表示与可控行为之间的关系，以及如何在提升安全性的同时保留模型的有效推理能力。"
+tags = ["LLM Alignment", "隐私安全", "可解释 AI"]
 
 [[items]]
-title = "可靠 AI 工具链"
-subtitle = "本地开发与故障诊断"
-date = "2026"
-content = "围绕本地 AI 助手、CLI 故障、代理诊断、可复现配置和项目启动器的实践工具。重点是用终端验证问题，而不是停留在猜测式配置建议。"
-tags = ["开发工具", "诊断", "可复现"]
+title = "Agent 仿真与协同"
+subtitle = "面向 AI Agent 的决策框架"
+date = "研究兴趣"
+content = "探索 agent simulation、agent coordination 和 decision-making framework。核心问题是多个 AI Agent 如何在结构化目标和约束下进行推理、协同与行动。"
+tags = ["Agent", "仿真", "决策"]

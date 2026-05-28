@@ -1,11 +1,11 @@
 [[news]]
 date = "2026-05"
-content = "基于 PRISM 重建个人主页，支持中英文内容、项目页面和单页式研究简介。"
+content = "更新主页内容，包括教育背景、研究经历和已接收论文。"
 
 [[news]]
-date = "2026-05"
-content = "探索由理论驱动的 LTV 估计器重构：包含 value-state observer、cohort shock 和尾部保护项。"
+date = "2026-09"
+content = "即将入学 Mohamed bin Zayed University of Artificial Intelligence（MBZUAI）机器学习博士项目。"
 
 [[news]]
-date = "2026-05"
-content = "将 LTV 与 GMV 工作整理为相互独立的研究方向，方便实验和写作分别推进。"
+date = "2025-05"
+content = "开始在阿里巴巴进行算法工程实习，关注生成式 LTV 预测和确认 GMV 预测。"

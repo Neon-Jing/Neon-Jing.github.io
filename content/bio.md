@@ -1,5 +1,5 @@
-I work on practical AI and machine learning systems where modeling quality has to survive real product constraints: delayed labels, changing cohorts, subgroup shifts, and high-value tails.
+I am an incoming Ph.D. student in Machine Learning at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). Before that, I studied Artificial Intelligence at Lanzhou University.
 
-My current research centers on long-horizon value prediction, especially LTV and GMV modeling. I am interested in methods that do more than improve average error. For example, a useful LTV estimator should preserve high-value users, react to promotion shocks, and remain interpretable enough to guide product decisions.
+My research interests sit across data mining and practical AI systems: multimodal recommender systems, user behavior modeling, financial recommendation, LTV/GMV prediction, and long-horizon value modeling. A recurring question in my work is how to make models useful under real product constraints such as delayed labels, shifting cohorts, and high-value tails.
 
-I also build research automation workflows for literature review, experiment planning, result auditing, and reproducible engineering loops. The common thread is simple: turn vague research questions into runnable experiments, then let measured tradeoffs drive the next step.
+I also work on LLM alignment and agent systems, including agent simulation, coordination, decision-making frameworks, privacy safety, and explainable AI. My recent research and engineering experience includes Alibaba Group, MBZUAI, University College Dublin, Westlake University, and UNC Chapel Hill.

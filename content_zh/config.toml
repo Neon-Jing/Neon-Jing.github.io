@@ -1,19 +1,22 @@
 [site]
 title = "Hongji Li"
-description = "Hongji Li 的个人主页，关注 AI 研究、预测建模和可靠的研究自动化。"
-last_updated = "2026年5月27日"
+description = "Hongji Li 的个人主页，关注数据挖掘、推荐系统、LTV/GMV 预测和 LLM Agent。"
+last_updated = "2026年5月28日"
 
 [author]
 name = "Hongji Li"
-title = "AI/ML 研究者与工程实践者"
-institution = "Applied AI Systems"
+title = "机器学习博士生（即将入学）"
+institution = "MBZUAI · 兰州大学"
 
 [social]
-location = "Remote"
+email = "3420670269neon@gmail.com"
+location = "中国 / 阿联酋"
 location_details = [
-  "欢迎研究合作、",
-  "应用 AI 项目和技术讨论。"
+  "兰州大学人工智能本科",
+  "MBZUAI 机器学习博士生（即将入学）"
 ]
+google_scholar = "https://scholar.google.com.hk/citations?user=lqFaDTMAAAAJ&hl=zh-CN"
+github = "https://github.com/Neon-Jing"
 
 [[navigation]]
 title = "关于"
@@ -38,9 +41,3 @@ title = "经历"
 type = "page"
 target = "experience"
 href = "/experience"
-
-[[navigation]]
-title = "简历"
-type = "page"
-target = "cv"
-href = "/cv"

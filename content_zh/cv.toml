@@ -1,4 +1,0 @@
-type = "text"
-title = "简历"
-description = "一个简洁的 CV 摘要。正文是 Markdown，后续很容易继续修改。"
-source = "cv.md"

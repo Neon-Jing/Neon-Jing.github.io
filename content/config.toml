@@ -1,23 +1,24 @@
 [site]
 title = "Hongji Li"
-description = "Personal homepage for Hongji Li, focused on AI research, predictive modeling, and reliable research automation."
+description = "Personal homepage for Hongji Li, focused on data mining, recommender systems, LTV/GMV prediction, and LLM agents."
 favicon = "/favicon.svg"
-last_updated = "May 27, 2026"
+last_updated = "May 28, 2026"
 
 [author]
 name = "Hongji Li"
-title = "AI/ML Researcher and Builder"
-institution = "Applied AI Systems"
+title = "Incoming Ph.D. Student in Machine Learning"
+institution = "MBZUAI · Lanzhou University"
 avatar = "/profile.svg"
 
 [social]
-# Add real contact links here when ready.
-location = "Remote"
+email = "3420670269neon@gmail.com"
+location = "China / UAE"
 location_details = [
-  "Open to research collaboration,",
-  "applied AI projects, and technical discussion."
+  "B.AI, Lanzhou University",
+  "Incoming Ph.D., MBZUAI"
 ]
-github = "https://github.com/hongjili"
+google_scholar = "https://scholar.google.com.hk/citations?user=lqFaDTMAAAAJ&hl=zh-CN"
+github = "https://github.com/Neon-Jing"
 
 [features]
 enable_likes = true
@@ -59,9 +60,3 @@ title = "Experience"
 type = "page"
 target = "experience"
 href = "/experience"
-
-[[navigation]]
-title = "CV"
-type = "page"
-target = "cv"
-href = "/cv"

@@ -3,10 +3,11 @@ title = "About"
 
 [profile]
 research_interests = [
-  "Predictive modeling",
-  "LTV and GMV systems",
-  "Tail-robust estimation",
-  "Research automation"
+  "Multimodal recommender systems",
+  "User behavior modeling",
+  "LTV and GMV prediction",
+  "LLM alignment",
+  "Agent simulation and coordination"
 ]
 
 [[sections]]

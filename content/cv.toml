@@ -1,4 +1,0 @@
-type = "text"
-title = "CV"
-description = "A concise CV-style summary. The source content is plain Markdown, so it is easy to edit."
-source = "cv.md"

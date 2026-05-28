@@ -1,11 +1,11 @@
 [[news]]
 date = "2026-05"
-content = "Rebuilt this homepage on top of PRISM with bilingual content, project pages, and a one-page research profile."
+content = "Updated this homepage with education, research experience, and accepted publications."
 
 [[news]]
-date = "2026-05"
-content = "Exploring theory-guided LTV estimator reconstruction with value-state observers, cohort shocks, and tail-protection terms."
+date = "2026-09"
+content = "Incoming Ph.D. student in Machine Learning at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)."
 
 [[news]]
-date = "2026-05"
-content = "Organized LTV and GMV work into separate research tracks so experiments and writeups can evolve independently."
+date = "2025-05"
+content = "Started an algorithm engineering internship at Alibaba Group, focusing on generative LTV prediction and confirmed GMV forecasting."

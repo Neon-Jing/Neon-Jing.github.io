@@ -1,35 +1,60 @@
-@misc{li2026tailawareltv,
+@inproceedings{yu2026multiadapter,
   selected = {true},
-  title = {超越全局校准的尾部稳健 LTV 建模},
-  author = {Hongji Li},
+  title = {Multi-Adapter Representation Interventions via Energy Calibration},
+  author = {Manjiang Yu and Hongji Li and Junwei Chen and Xue Li and Priyanka Singh and Yang Cao and Lijie Hu},
+  booktitle = {Proceedings of the Forty-third International Conference on Machine Learning (ICML)},
   year = {2026},
-  month = may,
-  note = {工作笔记},
-  abstract = {这份研究笔记讨论为什么长期价值估计器可能在平均误差上变好，却仍然损害高价值尾部。笔记把子群体可靠性、尾部低估和面向决策的评估作为一等建模约束。},
-  description = {梳理平均 LTV 误差与高价值尾部可靠性之间的缺口，并给出面向子群体和决策支持的评估入口。},
-  keywords = {LTV, 尾部稳健性, 子群体评估, 校准}
+  description = {已被 ICML 2026 接收。该工作通过 energy calibration 研究面向大模型可控行为的表示干预。},
+  keywords = {LLM, 表示干预, Energy Calibration}
 }
 
-@misc{li2026lyapunovvalue,
+@inproceedings{li2026reasoningunlearning,
   selected = {true},
-  title = {面向长期用户价值预测的 Lyapunov 启发式 Value-State 估计器},
-  author = {Hongji Li},
+  title = {Towards Reasoning-Preserving Unlearning in Multimodal Large Language Models},
+  author = {Hongji Li and Manjiang Yu and Junchi Yao and Priyanka Singh and Xue Li and Di Wang and Lijie Hu},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year = {2026},
-  month = may,
-  note = {研究原型},
-  abstract = {这个原型方向围绕可观测 value state、cohort shock 和 barrier term 重构 LTV 估计。目标是检验稳定性风格的设计是否能比单薄的后处理修正层产生更好的 tradeoff。},
-  description = {一个理论驱动的 LTV 原型，将 observer dynamics、cohort response 和尾部保护项拆开建模。},
-  keywords = {LTV, Lyapunov 方法, Value State, 预测建模}
+  url = {https://arxiv.org/abs/2502.19204},
+  description = {已被 CVPR 2026 接收。该工作研究多模态大语言模型中的 unlearning，同时尽量保留有效推理能力。},
+  keywords = {多模态大模型, Unlearning, 安全}
 }
 
-@misc{li2026delayedgmv,
-  selected = {true},
-  title = {感知促销冲击的延迟 GMV 预测},
-  author = {Hongji Li},
+@inproceedings{he2026distilldepth,
+  title = {Distill Any Depth: Distillation Creates a Stronger Monocular Depth Estimator},
+  author = {Xiankang He and Dongyan Guo and Hongji Li and Ruibo Li and Ying Cui and Chi Zhang},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year = {2026},
-  month = may,
-  note = {项目笔记},
-  abstract = {这份项目笔记讨论点击后延迟 GMV 建模：观测标签会随时间成熟，而促销冲击会改变子群体分布。这个方向强调在线可用性、成熟度感知评估和稳健的子群体行为。},
-  description = {围绕标签成熟度、促销冲击和子群体稳健性组织延迟 GMV 预测问题。},
-  keywords = {GMV, 延迟标签, 促销冲击, 在线决策支持}
+  description = {已被 CVPR 2026 接收。该工作关注通过 distillation 构建更强的单目深度估计器。},
+  keywords = {单目深度估计, 蒸馏, 计算机视觉}
+}
+
+@inproceedings{yu2026pixel,
+  title = {PIXEL: Adaptive Steering via Position-wise Injection with eXact Estimated Levels under Subspace Calibration},
+  author = {Manjiang Yu and Hongji Li and Priyanka Singh and Xue Li and Di Wang and Lijie Hu},
+  booktitle = {Proceedings of the ACM Web Conference (WWW)},
+  year = {2026},
+  url = {https://arxiv.org/abs/2510.10205},
+  description = {已被 WWW 2026 接收。该工作研究 position-wise injection 与 subspace calibration 下的 adaptive steering。},
+  keywords = {LLM Steering, Subspace Calibration, WWW}
+}
+
+@inproceedings{zhuang2025frequency,
+  title = {Frequency-Decoupled Distillation for Efficient Multimodal Recommendation},
+  author = {Ziyi Zhuang and Hongji Li and Junchen Fu and Mengmeng Chen and Joemon Jose and Youhua Li and Yongxin Ni},
+  booktitle = {Proceedings of the ACM International Conference on Information and Knowledge Management (CIKM)},
+  year = {2025},
+  doi = {10.1145/3746252.3761242},
+  description = {已被 CIKM 2025 接收。该工作通过 frequency-decoupled distillation 研究高效多模态推荐。},
+  keywords = {多模态推荐, 蒸馏, 推荐系统}
+}
+
+@inproceedings{li2025teachdenoise,
+  selected = {true},
+  title = {Teach Me How to Denoise: A Universal Framework for Denoising Multi-modal Recommender Systems via Guided Calibration},
+  author = {Hongji Li and Hanwen Du and Youhua Li and Junchen Fu and Ziyi Zhuang and Chunxiao Li and Jiakang Li and Yongxin Ni},
+  booktitle = {Proceedings of the ACM International Conference on Web Search and Data Mining (WSDM)},
+  year = {2025},
+  doi = {10.1145/3701551.3703507},
+  description = {已被 WSDM 2025 接收。该工作提出 guided calibration，用于多模态推荐系统去噪。},
+  keywords = {多模态推荐, 去噪, Guided Calibration}
 }
