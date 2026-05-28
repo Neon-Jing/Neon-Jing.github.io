@@ -1,7 +1,11 @@
 [[news]]
-date = "2025-11"
-content = "我们的工作被顶级期刊接收了 🎉"
+date = "2026-05"
+content = "基于 PRISM 重建个人主页，支持中英文内容、项目页面和单页式研究简介。"
 
 [[news]]
-date = "2025-09"
-content = "在某某大学开始博士学习"
+date = "2026-05"
+content = "探索由理论驱动的 LTV 估计器重构：包含 value-state observer、cohort shock 和尾部保护项。"
+
+[[news]]
+date = "2026-05"
+content = "将 LTV 与 GMV 工作整理为相互独立的研究方向，方便实验和写作分别推进。"

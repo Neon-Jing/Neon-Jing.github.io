@@ -1,5 +1,5 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+I work on practical AI and machine learning systems where modeling quality has to survive real product constraints: delayed labels, changing cohorts, subgroup shifts, and high-value tails.
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+My current research centers on long-horizon value prediction, especially LTV and GMV modeling. I am interested in methods that do more than improve average error. For example, a useful LTV estimator should preserve high-value users, react to promotion shocks, and remain interpretable enough to guide product decisions.
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+I also build research automation workflows for literature review, experiment planning, result auditing, and reproducible engineering loops. The common thread is simple: turn vague research questions into runnable experiments, then let measured tradeoffs drive the next step.

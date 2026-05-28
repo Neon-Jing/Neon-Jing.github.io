@@ -1,25 +1,26 @@
 type = "about"
-title = "关于我"
+title = "关于"
 
 [profile]
 research_interests = [
-  "计算物理",
-  "数学原理",
-  "定理证明"
+  "预测建模",
+  "LTV 与 GMV 系统",
+  "尾部稳健估计",
+  "研究自动化"
 ]
 
 [[sections]]
 id = "about"
 type = "markdown"
 source = "bio.md"
-title = "关于我"
+title = "关于"
 
 [[sections]]
 id = "featured_publications"
 type = "publications"
-title = "精选论文"
+title = "精选研究"
 filter = "selected"
-limit = 5
+limit = 3
 
 [[sections]]
 id = "news"

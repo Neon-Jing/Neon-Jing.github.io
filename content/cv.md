@@ -1,26 +1,33 @@
-## Education
+## Profile
 
-**The University of Example**, PhD in Natural Science, *2025 - Present*
-- Research focus: Mathematical Principles of Natural Philosophy
-- Supervisor: Prof. Advisor One and Dr. Advisor Two
+AI/ML researcher and builder focused on prediction systems, long-horizon value modeling, and reliable research automation.
 
-**The University of Example**, BSc in Natural Science, *2021 - 2025*
-- Graduated with First Class Honours
+## Research Focus
 
-## Experience
+- **Long-horizon value prediction:** LTV and GMV modeling under delayed labels, subgroup drift, and promotion shocks.
+- **Robust evaluation:** tail-aware metrics, subgroup reliability, decision-facing tradeoffs, and result-to-claim discipline.
+- **Research automation:** workflows that move from idea refinement to experiment plans, audits, and reproducible writeups.
 
-**Example Role**
-Company/Institution
-*2023 - 2024*
-- Description of key responsibilities and achievements.
-- Utilized skills to solve problems.
+## Selected Project Experience
 
-## Skills
+**Theory-Guided LTV Estimation**, *2026 - Present*
+- Exploring value-state estimators, cohort-shock handling, and tail-protection terms.
+- Example question: if a method improves average NMAE, does it still preserve the highest-value decile?
 
-- **Programming:** Python, C++, MATLAB, LaTeX
-- **Data Analysis:** Pandas, NumPy, SciPy
-- **Languages:** English (Native), French (Fluent)
+**Delayed GMV Modeling**, *2026 - Present*
+- Separating label maturity, post-click payment delay, and promotion-shock effects.
+- Building evaluation views that are useful for online decisions, not only offline aggregate scores.
 
-## Awards & Honors
+**Research Automation Workflow**, *2026 - Present*
+- Creating restartable research artifacts such as problem banks, experiment plans, audit checklists, and result summaries.
+- Using Codex-native workflows to keep research, code, and documentation aligned.
 
-- **First Prize in Example Competition** - Committee of Example (*2024*)
+## Technical Stack
+
+- **Modeling:** Python, pandas, NumPy, scikit-learn-style experimentation, ranking and regression evaluation.
+- **Research Engineering:** reproducible scripts, saved-prediction analysis, ablation design, experiment tracking.
+- **Web and Tooling:** TypeScript, Next.js, React, Markdown/TOML content systems, CLI diagnostics.
+
+## Contact
+
+Update `content/config.toml` with a real email, Scholar profile, ORCID, LinkedIn, and deployment URL when ready.

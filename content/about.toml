@@ -3,9 +3,10 @@ title = "About"
 
 [profile]
 research_interests = [
-  "Computational Physics",
-  "Mathematical Principles",
-  "Proof of Theorems"
+  "Predictive modeling",
+  "LTV and GMV systems",
+  "Tail-robust estimation",
+  "Research automation"
 ]
 
 [[sections]]
@@ -17,13 +18,12 @@ title = "About"
 [[sections]]
 id = "featured_publications"
 type = "publications"
-title = "Selected Publications"
+title = "Selected Research"
 filter = "selected"
-limit = 5
+limit = 3
 
 [[sections]]
 id = "news"
 type = "list"
-title = "News"
+title = "Updates"
 source = "news.toml"
-

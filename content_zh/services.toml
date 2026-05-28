@@ -1,9 +1,10 @@
 type = "card"
-title = "学术服务"
-description = "专业服务与社区参与。"
+title = "服务"
+description = "社区参与和合作方向。"
 
 [[items]]
-title = "审稿人"
-subtitle = "某期刊"
-date = "2024"
-content = "参与审阅论文。"
+title = "研究合作"
+subtitle = "应用 AI 与预测建模"
+date = "Current"
+content = "欢迎围绕 LTV、GMV、延迟标签、稳健评估和研究自动化工作流交流。"
+tags = ["合作", "应用 AI"]

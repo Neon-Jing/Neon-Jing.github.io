@@ -1,10 +1,10 @@
 type = "card"
-title = "Teaching"
-description = "Courses I have taught or assisted with."
+title = "Mentoring"
+description = "Notes on teaching, mentoring, and technical sharing."
 
 [[items]]
-title = "Example Course"
-subtitle = "Teaching Assistant"
-date = "2024"
-content = "Description of the course and responsibilities. Content of this course can be found [here](https://example.com)."
-tags = ["Undergraduate", "CS"]
+title = "Research and Engineering Notes"
+subtitle = "Technical sharing"
+date = "Current"
+content = "I occasionally turn research workflows, debugging lessons, and experiment design patterns into reusable notes. For example, a hard-to-reproduce CLI failure becomes a checklist of commands, logs, and expected signals."
+tags = ["Teaching", "Mentoring", "Notes"]

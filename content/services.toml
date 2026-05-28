@@ -1,9 +1,10 @@
 type = "card"
-title = "Services"
-description = "Professional services and community involvement."
+title = "Service"
+description = "Community and collaboration activities."
 
 [[items]]
-title = "Reviewer"
-subtitle = "Journal Name"
-date = "2024"
-content = "Reviewed papers for..."
+title = "Research Collaboration"
+subtitle = "Applied AI and predictive modeling"
+date = "Current"
+content = "Open to discussion around LTV, GMV, delayed labels, robust evaluation, and research automation workflows."
+tags = ["Collaboration", "Applied AI"]

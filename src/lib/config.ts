@@ -50,6 +50,42 @@ export interface SiteConfig {
 
 const DEFAULT_CONTENT_DIR = 'content';
 
+function getGitHubPagesBasePath(): string {
+  const repositoryOwner = process.env.GITHUB_REPOSITORY_OWNER;
+  const repositoryName = process.env.GITHUB_REPOSITORY?.split('/')[1];
+  const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
+
+  if (!isGitHubActions || !repositoryOwner || !repositoryName) {
+    return '';
+  }
+
+  return repositoryName === `${repositoryOwner}.github.io` ? '' : `/${repositoryName}`;
+}
+
+function prefixPublicAssetPath(value?: string): string | undefined {
+  const basePath = getGitHubPagesBasePath();
+
+  if (!value || !basePath || !value.startsWith('/') || value.startsWith(`${basePath}/`)) {
+    return value;
+  }
+
+  return `${basePath}${value}`;
+}
+
+function withRuntimeAssetPaths(config: SiteConfig): SiteConfig {
+  return {
+    ...config,
+    site: {
+      ...config.site,
+      favicon: prefixPublicAssetPath(config.site.favicon) || config.site.favicon,
+    },
+    author: {
+      ...config.author,
+      avatar: prefixPublicAssetPath(config.author.avatar) || config.author.avatar,
+    },
+  };
+}
+
 function normalizeLocale(locale: string): string {
   return locale.trim().replace('_', '-').toLowerCase();
 }
@@ -107,14 +143,14 @@ export function getConfig(locale?: string): SiteConfig {
     const baseConfig = getDefaultConfig();
 
     if (!locale) {
-      return baseConfig;
+      return withRuntimeAssetPaths(baseConfig);
     }
 
     const normalizedLocale = normalizeLocale(locale);
     const localizedPath = path.join(process.cwd(), `${DEFAULT_CONTENT_DIR}_${normalizedLocale}`, 'config.toml');
     const localizedConfig = readConfigFromPath(localizedPath);
 
-    return mergeConfig(baseConfig, localizedConfig);
+    return withRuntimeAssetPaths(mergeConfig(baseConfig, localizedConfig));
   } catch (error) {
     console.error('Error loading config:', error);
     throw new Error('Failed to load configuration');

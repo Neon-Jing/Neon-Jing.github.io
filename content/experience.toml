@@ -1,0 +1,24 @@
+type = "card"
+title = "Experience"
+description = "Selected experience framed by the kind of problems I can help solve."
+
+[[items]]
+title = "Applied AI Research"
+subtitle = "Prediction systems and experiment design"
+date = "Current"
+content = "Designing modeling experiments for long-horizon value prediction. Work includes feature framing, saved-prediction analysis, subgroup evaluation, and decision-oriented metrics."
+tags = ["Machine Learning", "Experiment Design", "Evaluation"]
+
+[[items]]
+title = "Research Engineering"
+subtitle = "Automation, reproducibility, and project memory"
+date = "Current"
+content = "Building workflows that make research easier to restart: problem banks, research wikis, experiment plans, audit loops, and structured result-to-claim checks."
+tags = ["Research Ops", "Automation", "Documentation"]
+
+[[items]]
+title = "Developer Tooling"
+subtitle = "Local AI tools and diagnostics"
+date = "Current"
+content = "Diagnosing local CLI and assistant failures from the actual system layer: shell state, process environment, proxy settings, logs, and reproducible commands."
+tags = ["CLI", "macOS", "Tooling"]

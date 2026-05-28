@@ -57,9 +57,11 @@ export default function SelectedPublications({ publications, title, enableOnePag
                                 </span>
                             ))}
                         </p>
-                        <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-2">
-                            {pub.journal || pub.conference}
-                        </p>
+                        {(pub.journal || pub.conference) && (
+                            <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-2">
+                                {pub.journal || pub.conference}
+                            </p>
+                        )}
                         {pub.description && (
                             <p className="text-sm text-neutral-500 dark:text-neutral-500 line-clamp-2">
                                 {pub.description}

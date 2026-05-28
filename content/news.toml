@@ -1,7 +1,11 @@
 [[news]]
-date = "2025-11"
-content = "Our work has been accepted by a prestigious journal 🎉"
+date = "2026-05"
+content = "Rebuilt this homepage on top of PRISM with bilingual content, project pages, and a one-page research profile."
 
 [[news]]
-date = "2025-09"
-content = "Starting my PhD at the University of Example"
+date = "2026-05"
+content = "Exploring theory-guided LTV estimator reconstruction with value-state observers, cohort shocks, and tail-protection terms."
+
+[[news]]
+date = "2026-05"
+content = "Organized LTV and GMV work into separate research tracks so experiments and writeups can evolve independently."

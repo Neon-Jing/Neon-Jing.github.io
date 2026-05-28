@@ -1,4 +1,4 @@
 type = "publication"
-title = "论文"
-description = "我的研究成果列表。"
+title = "研究"
+description = "这里展示工作笔记、技术报告和研究方向。有正式论文后，可以直接替换或扩展对应 BibTeX 条目。"
 source = "publications.bib"

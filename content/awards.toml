@@ -1,27 +1,10 @@
 type = "card"
-title = "Awards"
-description = "Honors and awards I have received."
+title = "Recognition"
+description = "A lightweight page for future awards, milestones, and recognitions."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2025"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2024"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2023"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2022"
-content = "Description of the award."
+title = "To be updated"
+subtitle = "Recognition and milestones"
+date = "Current"
+content = "Add confirmed awards, scholarships, accepted papers, or public milestones here when they are ready to publish."
+tags = ["Profile", "Milestones"]

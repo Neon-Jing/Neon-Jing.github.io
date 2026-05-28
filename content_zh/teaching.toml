@@ -1,10 +1,10 @@
 type = "card"
-title = "教学"
-description = "我曾参与授课或助教的课程。"
+title = "分享"
+description = "关于教学、指导和技术分享的记录。"
 
 [[items]]
-title = "示例课程"
-subtitle = "助教"
-date = "2024"
-content = "课程内容与职责简介。"
-tags = ["本科生", "计算机"]
+title = "研究与工程笔记"
+subtitle = "技术分享"
+date = "Current"
+content = "我会把研究工作流、调试经验和实验设计模式整理成可复用笔记。例如，一个难复现的 CLI 故障会被整理为包含命令、日志和预期信号的检查清单。"
+tags = ["教学", "指导", "笔记"]

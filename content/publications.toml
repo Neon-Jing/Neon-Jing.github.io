@@ -1,4 +1,4 @@
 type = "publication"
-title = "Publications"
-description = "A collection of my research work."
+title = "Research"
+description = "Working notes, technical reports, and research directions. Replace or extend these BibTeX entries with formal publications when available."
 source = "publications.bib"
